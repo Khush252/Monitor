@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port the app runs on (if applicable)
-# EXPOSE 8000
+# EXPOSE 8001
 
 # Set environment variables (if necessary)
 # ENV VARIABLE_NAME=value
