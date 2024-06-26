@@ -68,4 +68,4 @@ def generate_report_endpoint(start_date_str: Optional[str] = Query(None), end_da
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8001)
